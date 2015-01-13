@@ -2,8 +2,18 @@
 <html>
     <head>
         <title>Learning AngularJS</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
     <body>
-     
+      <div id="container" ng-app="angles" ng-controller="controller">
+        <p>{{intro}}</p>
+        <section>
+          <input type="text" ng-model="nameValue" />
+          {{nameLabel + nameValue}}
+        </section>
+      </div>
+      <script src="angular.min.js"></script>
+      <script src="app.js"></script>
+      <script src="controller.js"></script>
     </body>
 </html>
