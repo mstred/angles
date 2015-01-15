@@ -18,3 +18,7 @@ body {
   background: #fff;
   box-shadow: 0em 0.2em 0.125em grey;
 }
+
+#container section {
+  padding: 1em;
+}
