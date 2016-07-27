@@ -1,13 +1,13 @@
-app.controller("controller", function($scope) {
-  $scope.intro = "Tis' the freakin' understandable (and bindable) $scope!";
-  $scope.nameLabel = "Name: ";
-  $scope.nameValue = "";
+app.controller("Controller", function() {
+  this.intro = 'Tis\' the freakin\' understandable (and bindable) "controller-as" scope!';
+  this.nameLabel = "Name: ";
+  this.nameValue = "";
 
-  $scope.selectedBrand = null;
-  $scope.selectedCar = null;
+  this.selectedBrand = null;
+  this.selectedCar = null;
 
-  $scope.carLabel = "Selected vehicle: ";
-  $scope.vehicles = [
+  this.carLabel = "Selected vehicle: ";
+  this.vehicles = [
     {
       id: 0,
       brand: 'Chevrolet',
