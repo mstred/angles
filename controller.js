@@ -1,6 +1,3 @@
-import 'babel-polyfill';
-import app from './app';
-
 app.controller("Controller", function() {
   this.intro = 'Tis\' the freakin\' understandable (and bindable) "controller-as" scope!';
   this.nameLabel = "Name: ";
