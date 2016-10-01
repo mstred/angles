@@ -1,0 +1,33 @@
+{
+  "name": "angles",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2016": "^6.11.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2016": "^6.11.3",
+    "webpack": "^1.13.2"
+  },
+  "babel": {
+    "presets": ["es2016"]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstred/angles.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/mstred/angles/issues"
+  },
+  "homepage": "https://github.com/mstred/angles#readme"
+}
