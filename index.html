@@ -5,21 +5,19 @@
         <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
     <body>
-      <div id="container" ng-app="angles" ng-controller="Controller as ctrl">
-        <p>{{ctrl.intro}}</p>
+      <div id="container" ng-app="angles" ng-controller="controller">
+        <p>{{intro}}</p>
         <section id="part1-basics">
-          <input type="text" ng-model="ctrl.nameValue" />
-          <span>{{ctrl.nameLabel + ctrl.nameValue}}</span>
+          <input type="text" ng-model="nameValue" />
+          <span>{{nameLabel + nameValue}}</span>
         </section>
         <section id="part2-binding">
-          <select ng-model="ctrl.selectedBrand" ng-options="car.brand for car in ctrl.vehicles"></select>
-          <select ng-model="ctrl.selectedCar">
-            <option ng-repeat="model in ctrl.vehicles[ctrl.selectedBrand.id].model">{{model}}</option>
+          <select ng-model="selectedBrand" ng-options="car.brand for car in vehicles"></select>
+          <select ng-model="selectedCar">
+            <option ng-repeat="model in vehicles[selectedBrand.id].model">{{model}}</option>
           </select>
         </section>
       </div>
-      <script src="angular.min.js"></script>
-      <script src="app.js"></script>
-      <script src="controller.js"></script>
+      <script src="dist/app.js"></script>
     </body>
 </html>
