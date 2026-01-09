@@ -1,6 +1,17 @@
 {
   "name": "angles",
-  "version": "0.0.0",
+  "version": "2.0.0",
+  "description": "A getting started project for learning Angular.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstred/angles.git"
+  },
+  "author": "@mstred",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/mstred/angles/issues"
+  },
+  "homepage": "https://github.com/mstred/angles#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
